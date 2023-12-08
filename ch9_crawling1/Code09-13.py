@@ -6,8 +6,8 @@ import urllib.request
 
 # 날씨의 정보를 크롤링 가져와서 -> 실제 csv 파일에 쓰는 예제.
 
-csvName = 'c:/CookAnalysis/CSV/sokcho_weather_230823.csv'
-with open(csvName, 'w', newline='') as csvFp:
+csvName = 'C:/PythonTest/Python_note/ch9_crawling1/sokcho_weather_231208.csv'
+with open(csvName, 'w', newline='',encoding="UTF-8") as csvFp:
     csvWriter = csv.writer(csvFp)
     # 첫번째 헤더 부분 , 컬럼.
     csvWriter.writerow(['연월일', '시분초', '온도', '습도', '강수량', '풍향'])
@@ -36,7 +36,7 @@ while True:
 
     #
     weather_list = [yymmdd, hhmmss, temper, humi, rain, wind]
-    with open(csvName, 'a', newline='') as csvFp:
+    with open(csvName, 'a', newline='',encoding="UTF-8") as csvFp:
         csvWriter = csv.writer(csvFp)
         csvWriter.writerow(weather_list)
         print(weather_list)

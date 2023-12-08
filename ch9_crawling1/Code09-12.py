@@ -6,7 +6,7 @@ import datetime
 csvName = 'C:/PythonTest/Python_note/ch9_crawling1/datetime_231208.csv'
 #파이썬 키워드 with 시작한다. 기능 -> 파일 입출력하기 위한 객체 필요
 #해당 객체를 이용 후 자원 반납
-with open(csvName, 'w', newline='') as csvFp:
+with open(csvName, 'w', newline='',encoding="UTF-8") as csvFp:
     csvWriter = csv.writer(csvFp)
     csvWriter.writerow(['연월일', '시분초'])
 
