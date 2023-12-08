@@ -1,0 +1,19 @@
+<div class="b-newbook">
+	<h3>MD 추천 신간</h3>
+	<ul class="b-booklist">
+		<li>
+			<div class="b-cover">
+				<a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329561366">
+					<img src="https://image.aladin.co.kr/product/32956/13/cover/k832936241_1.jpg" border="0" />
+				</a>
+			</div>
+			<div class="b-text">
+				<h4>
+					<a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329561366">데이터 메시</a>
+				</h4>
+				<div class="b-author">세막 데그하니 지음, 이헌효 옮김 | 한빛미디어</div>
+				<div class="b-price"><strong>34,200</strong>원 / 1,900원</div>
+			</div>
+		</li>
+    <li>
+			<div class="b-cover"> ...
